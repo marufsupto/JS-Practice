@@ -5,7 +5,7 @@ function enroll(callback){
 
     setTimeout(function(){
         if(paymentSuccess){
-            callback();
+            callback(); 
         }
         else{
             console.log("Payment failed");
@@ -28,7 +28,7 @@ function getCertificate(){
     console.log("preparing your Certificate!")
     
     setTimeout(function(){
-        console.log("Congrats! You got the Certificate");
+        console.log("Congrats! You got the Certificate"); 
         
     },1000);
 }
